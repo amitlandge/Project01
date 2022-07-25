@@ -5,4 +5,4 @@
 # Project Preview
 
 ![project01](Project01.png)  
-[Go to the Project Link](https://sensational-pothos-65b3dd.netlify.app/ "link")
+[Go to the Project Link](https://sensational-pothos-65b3dd.netlify.app "link")
