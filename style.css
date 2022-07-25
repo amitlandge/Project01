@@ -1,0 +1,118 @@
+body {
+  font-family: "Orbitron";
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  position: absolute;
+}
+.navbar-container {
+  position: relative;
+  left: 4%;
+  padding: 20px;
+  width: 100%;
+  height: 10vh;
+  /* background-color: aqua; */
+}
+.img-wrapper {
+  margin-top: 10px;
+  width: 150px;
+  float: left;
+}
+.img-wrapper img {
+  width: 100%;
+}
+.list {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+.list li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.button-group {
+  width: 20%;
+  float: left;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9px;
+}
+.nav-button {
+  padding: 8px 25px;
+  border-radius: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.hero-container {
+  /* width: 100%; */
+  /* background-color: aqua; */
+  position: relative;
+  top: 30%;
+  left: 4%;
+}
+.square {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  z-index: -100;
+}
+.star {
+  position: absolute;
+  top: 5%;
+  right: 12%;
+}
+.globe {
+  width: 50px;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+}
+.globe img {
+  width: 100%;
+}
+.person img {
+  width: 28%;
+}
+.hero-container-right {
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.hero-container-right h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.hero-container-right p {
+  text-align: center;
+  font-family: "Poppins";
+}
+div button {
+  padding: 7px 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-family: "Orbitron";
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px;
+}
+.icons {
+  width: 100%;
+  height: 20%;
+  height: auto;
+}
+.contact-heading {
+  font-weight: 300;
+  font-family: "Poppins";
+  font-size: 25px;
+}
+.icons span {
+  margin: 7px;
+}
