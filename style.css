@@ -1,6 +1,10 @@
 body {
   font-family: "Orbitron";
   box-sizing: border-box;
+  font-size: 1.6rem;
+}
+html {
+  font-size: 62.2%;
 }
 .container {
   width: 100%;
@@ -9,17 +13,16 @@ body {
 .navbar-container {
   position: relative;
   left: 4%;
-  padding: 20px;
+  padding: 2rem;
   width: 100%;
   height: 10vh;
-  /* background-color: aqua; */
 }
 .img-wrapper {
-  margin-top: 10px;
-  width: 150px;
+  margin-top: 1rem;
+  width: 10rem;
   float: left;
 }
-.img-wrapper img {
+.img-wrapper > img {
   width: 100%;
 }
 .list {
@@ -27,10 +30,10 @@ body {
   float: left;
   text-align: center;
 }
-.list li {
+.list > li {
   display: inline-block;
-  margin-left: 30px;
-  font-size: 25px;
+  margin-left: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 .button-group {
@@ -42,16 +45,15 @@ body {
   align-items: center;
   margin-top: 9px;
 }
+
 .nav-button {
-  padding: 8px 25px;
-  border-radius: 15px;
-  margin-left: 15px;
-  font-size: 20px;
+  padding: 0.8rem 2.5rem;
+  border-radius: 1.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 .hero-container {
-  /* width: 100%; */
-  /* background-color: aqua; */
   position: relative;
   top: 30%;
   left: 4%;
@@ -68,7 +70,7 @@ body {
   right: 12%;
 }
 .globe {
-  width: 50px;
+  width: 6rem;
   position: absolute;
   top: 2%;
   left: 50%;
@@ -87,21 +89,22 @@ body {
   left: 40%;
 }
 .hero-container-right h1 {
-  font-size: 50px;
+  font-size: 5rem;
   text-align: center;
 }
 .hero-container-right p {
   text-align: center;
   font-family: "Poppins";
+  font-size: 1.6rem;
 }
-div button {
-  padding: 7px 15px;
+div > button {
+  padding: 0.7rem 1.5rem;
   border: 2px solid black;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   font-family: "Orbitron";
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: 600;
-  margin: 5px;
+  margin: 0.5rem;
 }
 .icons {
   width: 100%;
@@ -111,8 +114,8 @@ div button {
 .contact-heading {
   font-weight: 300;
   font-family: "Poppins";
-  font-size: 25px;
+  font-size: 3rem;
 }
 .icons span {
-  margin: 7px;
+  margin: 0.7rem;
 }
